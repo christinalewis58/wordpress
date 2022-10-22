@@ -7,4 +7,15 @@
         <title><?php bloginfo('name'); ?></title>
         <?php wp_head(); ?>
     </head>
+    
     <body>
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 navigation">
+                    </div>
+                </div>
+            </div>
+</header>
+
+
