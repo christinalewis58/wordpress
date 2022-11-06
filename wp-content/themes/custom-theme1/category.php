@@ -31,7 +31,9 @@
                                 <?php the_post_thumbnail('medium'); ?>
                                 <?php the_excerpt(); ?>
                             </div>
-                        <?php }
+                        <?php } //end while
+                        //pagination
+                        kodasContentPagination();
                     }
                 ?>
             </section>

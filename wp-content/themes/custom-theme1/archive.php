@@ -36,7 +36,7 @@
 
                                 <?php the_excerpt(); ?>
                             </article>    
-                        <?php }
+                        <?php } //end while
                         //pagination
                         kodasContentPagination();
                     }                

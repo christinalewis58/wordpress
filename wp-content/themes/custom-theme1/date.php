@@ -14,7 +14,7 @@
        
             ?>
             </h2>
-            
+
             <?php
                     if(have_posts()){
                         while(have_posts()){
@@ -31,7 +31,9 @@
                                 <?php the_post_thumbnail('medium'); ?>
                                 <?php the_excerpt(); ?>
                             </div>
-                        <?php }
+                        <?php } //end while
+                        //pagination
+                        kodasContentPagination();
                     }
                 ?>
 

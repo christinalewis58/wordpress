@@ -16,6 +16,8 @@
                     </article>
                      
                     <?php } //end while
+                    //pagination
+                    kodasContentPagination();
     
                 } else { ?>
 
