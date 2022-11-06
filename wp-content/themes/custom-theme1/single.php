@@ -22,9 +22,8 @@
                 </div>
             </div>
 
-            <?php
+            <?php } //end whiles
         }
-    }
     ?>
 </main>
 <?php get_footer(); ?>

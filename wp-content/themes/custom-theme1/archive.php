@@ -37,6 +37,8 @@
                                 <?php the_excerpt(); ?>
                             </article>    
                         <?php }
+                        //pagination
+                        kodasContentPagination();
                     }                
                 ?>
             </section>
