@@ -1,1 +1,3 @@
-<h2>Hello this is a sidebar!</h2>
+<?php
+dynamic_sidebar('sidebar_widget');
+?>

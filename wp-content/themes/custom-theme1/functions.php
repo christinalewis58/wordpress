@@ -83,4 +83,34 @@ function kodasContentPagination(){
         'before_page_number' => '<span class="screen-reader-text">'.$translated.' </span>'
     ) );
 }
+
+ /*==========================
+Creating Widget Areas
+============================*/
+
+function blank_widgets_init(){
+    register_sidebar(array(
+        'name'           => ('Sidebar Widget'),
+        'id'             => 'sidebar-widget',
+        'description'    => 'Area in the sidebar for content',
+        'before_widget'  => '<div class="sidebar-widget-container">',
+        'after_widget'   => '</div>',
+        'before_title'   => '<h2>',
+        'after_title'    => '</h2>'
+    ));
+
+    register_sidebar(array(
+        'name'           => ('Right Footer Widget'),
+        'id'             => 'right-footer-widget',
+        'description'    => 'Area in the right footer for content',
+        'before_widget'  => '<div class="right-footer-widget-container">',
+        'after_widget'   => '</div>',
+        'before_title'   => '<h2>',
+        'after_title'    => '</h2>'
+    ));
+
+}
+
+    add_action('widgets_init', 'blank_widgets_init');
+
  ?>

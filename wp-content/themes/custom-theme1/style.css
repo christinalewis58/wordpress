@@ -9,3 +9,63 @@ License: GNU General Public License v2 or Later
 License URI: 
 Text Domain: custom-theme-1
 */
+header {
+    background: black
+}
+
+nav.custom-menu-class a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+ul#menu-main-menu li {
+    display: inline;
+    margin: 0 15px;
+}
+
+/* Home/Hero Page Styling*/
+
+.hero-container {
+    position: relative;
+}
+.hero-image {
+    margin-bottom: 20px;
+}
+
+.hero-image img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+}
+
+.hero-image:before {
+    content: "" ;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: linear-gradient(to top, black, transparent);
+}
+
+.hero-title {
+    position: absolute;
+    bottom: 20px;
+    color: white;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-left: 6px;
+}
+/* 404 Error Page*/
+
+.page_404{
+    padding: 40px 0;
+    background: white;
+    font-family: sans-serif;
+}
+
+.link_404{
+    color: white;
+}

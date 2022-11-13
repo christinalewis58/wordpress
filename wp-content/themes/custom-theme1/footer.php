@@ -34,18 +34,10 @@
             </div>
 
             <div class="col-md-4">
-            <?php 
-                    if(has_nav_menu('footer-right')){ ?>
-                        <nav class="footer-menu">
-                            <?php 
-                                wp_nav_menu(array(
-                                    'theme_location' => 'footer-left',
-                                ));
-                            ?>
-                        </nav>
-                    <?php }else{
-                        echo "<p>Please select a main menu through the dashboard</p>";
-                    } ?>
+            
+            <?php
+                dynamic_sidebar('right_footer_widget');
+            ?>
 
             </div>
 
