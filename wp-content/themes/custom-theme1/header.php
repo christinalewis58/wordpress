@@ -31,7 +31,7 @@
                             <?php 
                             wp_nav_menu(array(
                                 'theme_location' => 'main-menu',
-                                'container_class' => 'custome-menu-class'
+                                'container_class' => 'custom-menu-class'
                             ));
                             ?>
                         </nav>

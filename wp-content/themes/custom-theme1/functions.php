@@ -34,10 +34,7 @@ $custom_header_image = array (
 add_theme_support('custom-header', $custom_header_image);
 
 
-/*==========================
-Features Images
-============================*/
- add_theme_support('post-thumbnails');
+
 
  /*==========================
 Post Data Information

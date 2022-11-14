@@ -7,7 +7,7 @@
                     the_post(); ?>
 
                     <div class="individual-post">
-                        <div class="featured-image">
+                        <div class="featured-image" width=1600>
                         <?php the_post_thumbnail('thumbnail'); ?>
                         </div>
                         <div class="text-container">

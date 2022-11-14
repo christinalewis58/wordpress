@@ -22,7 +22,7 @@
                 </div>
             </div>
 
-            <?php } //end whiles
+            <?php } //end while
         }
     ?>
 </main>

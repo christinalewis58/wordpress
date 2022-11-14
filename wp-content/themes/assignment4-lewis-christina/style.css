@@ -1,0 +1,156 @@
+/*
+Theme Name: Assignment 4 CSS
+Theme RUI:
+Author: Christina Lewis
+Author URI: 
+Description: Custom theme styling for assignment 4
+Version: 1.0.0
+License: GNU General Public License v2 or Later
+License URI: 
+Text Domain: custom-theme-1
+*/
+header {
+    background: #393E46;
+    height: 150px;
+    padding: 10px;
+}
+
+nav.custom-menu-class a {
+    color: #F7F7F7;
+    text-decoration: none;
+    font-family: jaf-bernina-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.25em;
+ 
+}
+.title a {
+    color: #F2E7D5;
+    text-decoration: none;
+    font-family: cheap-pine,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2em;
+    padding: 30px;
+}
+
+ul#menu-main-menu li {
+    display: inline;
+    margin: 0 15px;
+}
+
+
+
+
+/* Home/Hero Page Styling
+
+.hero-container {
+    position: relative;
+}
+.hero-image {
+    margin-bottom: 20px;
+}
+
+.hero-image img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+}
+
+.hero-image:before {
+    content: "" ;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: linear-gradient(to top, black, transparent);
+}
+
+.hero-title {
+    position: absolute;
+    bottom: 20px;
+    color: #F7F7F7;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-left: 6px;
+} */
+
+
+
+.text-container {
+    font-family: jaf-bernino-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #393E46;
+
+
+}
+
+.individual-post a {
+    color: #6D9886;
+    text-decoration: none;
+    font-family: jaf-bernina-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.25em;
+  
+}
+form#searchform.searchform {
+padding: 10px;
+
+}
+
+input#searchsubmit {
+    color: #6D9886;
+    font-family: jaf-bernina-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.25em;
+}
+input#s {
+    color: #6D9886;
+    font-family: jaf-bernina-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.25em;
+}
+
+
+
+.single-post p, a{
+    font-family: jaf-bernino-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #393E46;
+    text-decoration: none;
+}
+
+/* 404 Error Page*/
+
+.page_404{
+    padding: 40px 0;
+    background: #F7F7F7;
+    font-family: sans-serif;
+}
+
+.link_404{
+    color: #F7F7F7;
+}
+
+/* Footer Menu */
+
+footer {
+    background: #393E46;
+    height: 150px;
+    padding: 10px;
+}
+nav.footer-menu ul li a{
+    font-family: jaf-bernino-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    color: #F2E7D5;
+    padding: 10px;
+}
