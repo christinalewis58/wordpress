@@ -7,13 +7,19 @@
             the_post(); ?>
 
             <div class="single-post">
-                <div class="featured-image">
-                <?php the_post_thumbnail('large'); 
+                <div class="featured-image"> 
+
+                
+                <?php  /*Lines 13-18 break the code on the individual post. 
+                        
+                        the_post_thumbnail('large'); 
                 
                         //Display Author and Publish Date Links
-                        post_data();
-                ?>
+                        post_data(); */
+                ?> 
+
                 <p> <?php echo 'Post written by: ' . get_the_author() . ' | Published on: ' . get_the_date(); ?> </p>
+
                 </div>
                 <div class="text-container">
                     <h2> <?php the_title(); ?></a></h2>
