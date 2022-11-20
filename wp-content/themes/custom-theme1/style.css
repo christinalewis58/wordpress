@@ -9,6 +9,82 @@ License: GNU General Public License v2 or Later
 License URI: 
 Text Domain: custom-theme-1
 */
+/* Reset Rule */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Universal Styling*/
+
+.container {
+    margin-top: 15px;
+}
+.container p {
+    color: black;
+    font-family: forma-djr-text,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2em;
+    padding-top: 30px;
+}
+
+.container p a {
+    color: #9dcdc0;
+    font-family: forma-djr-text,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1em;
+    padding-top: 50px;
+}
+
+.container ul li {
+    color: black;
+    font-family: forma-djr-text,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+.container ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.container h2 {
+    text-decoration: none;
+    color: #9dcdc0;
+    font-family: forma-djr-text,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2em;
+
+}
+
+.container h3 a {
+    text-decoration: none;
+    color: #9dcdc0;
+    font-family: forma-djr-text,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1em;
+
+}
+
+.container h4 a {
+    text-decoration: none;
+    color: #9dcdc0;
+    font-family: forma-djr-text,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1em;
+
+}
+
+
+/* Header styling*/
 header {
     background: #9dcdc0;
     height: 150px;
@@ -44,6 +120,30 @@ ul#menu-main-menu li {
     margin-right: 5px;
     padding: 5px;
 }
+
+#searchform {
+        float: right;
+        padding: 10px;    
+}
+
+#searchform button{
+    border: grey;
+    padding: 5px;
+       
+}
+
+#searchsubmit {
+    padding: 5px;
+    border-radius: 3px;
+    background-color: #9dcdc0;
+    color: white;
+    font-family: forma-djr-text,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2em;
+
+}
+
 /* Home/Hero Page Styling*/
 
 .hero-container {
@@ -78,6 +178,33 @@ ul#menu-main-menu li {
     font-weight: 400;
     font-style: normal;
 }
+
+/*Paw Report Styling*/
+
+.text-container h2 a {
+    text-decoration: none;
+    color: #9dcdc0;
+    font-family: forma-djr-text,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2em;
+}
+
+.featured-image img {
+    margin: 20px 0px;
+    border-radius: 3px;
+}
+
+.individual-post {
+    display: inline;
+}
+
+/*Single Post Styling*/
+.featured-image img {
+    max-width: 100%;
+    height: auto;
+}
+
 /* 404 Error Page*/
 
 .page_404{
@@ -88,4 +215,26 @@ ul#menu-main-menu li {
 
 .link_404{
     color: white;
+}
+
+/* Footer Styling */
+
+footer {
+    background: #9dcdc0;
+    height: auto;
+    padding: 20px;
+    
+}
+
+.footer-menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: forma-djr-text,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2em;
+}
+
+.footer-menu ul {
+    list-style: none;
 }
